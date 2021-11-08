@@ -1,0 +1,17 @@
+@import './normalize.css';
+
+html {
+  /* color: red; */
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 1s all;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
